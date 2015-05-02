@@ -37,13 +37,5 @@ trait MyService extends HttpService {
           }
         }
       }
-
-      post {
-          complete {
-            println("fuck post")
-            "hogee"
-          }
-
-      }
     }
 }
